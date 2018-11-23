@@ -1,0 +1,22 @@
+syntax: glob
+
+*/target/*
+
+syntax: regexp
+
+\.DS_Store$
+
+# eclipse and maven stuff
+\.classpath$
+\.project$
+\.settings/
+^target
+
+# For Idea projects
+syntax: glob
+.idea
+*.iml
+*.ipr
+*.iws
+
+native
